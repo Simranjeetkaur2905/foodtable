@@ -81,7 +81,7 @@ class ViewController: UIViewController , UITableViewDelegate, UITableViewDataSou
         alertcontroller.addAction(okaction)
         alertcontroller.addAction(printaction)
         //in order to click and print or ok window open
-      //  self.present(alertcontroller, animated: true, completion: nil)
+       self.present(alertcontroller, animated: true, completion: nil)
     }
     
     }
